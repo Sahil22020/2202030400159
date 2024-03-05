@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-oxygen: Oxygen;
+    --font-roboto: Roboto;
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-300xl: 319px;
+    --font-size-279xl-4: 298.4px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-gray: rgba(143, 143, 143, 0.16);
+  }

@@ -1,0 +1,652 @@
+.categories {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .label-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+  }
+  .cart-1-icon,
+  .magni-1-icon {
+    position: relative;
+    object-fit: cover;
+  }
+  .magni-1-icon {
+    height: 34px;
+    width: 39px;
+    border-radius: var(--br-93xl-5);
+  }
+  .cart-1-icon {
+    height: 37px;
+    width: 38px;
+    border-radius: 58.63px;
+    mix-blend-mode: darken;
+    min-height: 37px;
+  }
+  .magni-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0 10px;
+  }
+  .label-frame-parent,
+  .main-frame-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .label-frame-parent {
+    flex: 1;
+    justify-content: space-between;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .main-frame-inner {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 9px;
+  }
+  .all-popular-title {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .popular {
+    position: relative;
+  }
+  .stationery-label-child {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .kurtis-dress-label,
+  .stationery-label {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .stationery-label {
+    height: 4px;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    min-width: 490px;
+  }
+  .kurtis-dress-label {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .all-popular {
+    position: relative;
+  }
+  .girls-section,
+  .popular-text,
+  .popular-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .popular-text {
+    flex-direction: row;
+    padding: 0 3px;
+  }
+  .girls-section,
+  .popular-title {
+    align-self: stretch;
+    flex-direction: column;
+    padding: 0 0 0 var(--padding-7xs);
+    gap: 12px 0;
+  }
+  .popular-title {
+    align-items: flex-end;
+    padding: 0 0 var(--padding-8xs);
+    gap: 19px 0;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .girl-1-icon {
+    height: 79px;
+    width: 63px;
+    position: relative;
+    border-radius: 101px;
+    object-fit: cover;
+    mix-blend-mode: darken;
+  }
+  .girl-shape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs) 0 0;
+  }
+  .dress,
+  .kurtis {
+    margin: 0;
+  }
+  .kurtis-dress-container {
+    position: relative;
+  }
+  .categories-label,
+  .girl-shape-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .girl-shape-parent {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px 0;
+  }
+  .categories-label {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+  }
+  .foot-1-icon {
+    width: 64px;
+    flex: 1;
+    border-radius: var(--br-83xl-5);
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .foot-1-icon,
+  .footwear {
+    position: relative;
+  }
+  .foot-shape,
+  .foot-shape-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .foot-shape {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px 0;
+  }
+  .foot-shape-wrapper {
+    height: 102px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+  }
+  .station-1-icon {
+    height: 74px;
+    width: 71px;
+    position: relative;
+    border-radius: 80.5px;
+    object-fit: cover;
+  }
+  .station-shape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-mid);
+  }
+  .office-supplyment,
+  .stationery {
+    margin: 0;
+  }
+  .stationery-office-container {
+    position: relative;
+  }
+  .station-shape-parent {
+    gap: 3px 0;
+  }
+  .home-decor-label,
+  .sarees-label,
+  .station-shape-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .home-decor-label {
+    gap: 29px 0;
+  }
+  .sarees-label {
+    padding: var(--padding-11xs) 0 0;
+  }
+  .saree-1-icon {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 91.5px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .saree-1-icon,
+  .sarees {
+    position: relative;
+  }
+  .saree-1-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xl) 23px 25px;
+    gap: 6px 0;
+  }
+  .home-1-icon {
+    height: 73px;
+    width: 73px;
+    position: relative;
+    border-radius: 112px;
+    object-fit: contain;
+  }
+  .winter-collection-shape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 var(--padding-base);
+  }
+  .home-decore {
+    position: relative;
+  }
+  .winter-collection-shape-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .sports-1-icon {
+    width: 78px;
+    height: 80px;
+    position: relative;
+    border-radius: 108.5px;
+    object-fit: cover;
+  }
+  .fitness,
+  .sports {
+    margin: 0;
+  }
+  .sports-fitness-container {
+    position: relative;
+    z-index: 1;
+  }
+  .category-frame,
+  .sports-1-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .sports-1-parent {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .category-frame {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 8px 0 var(--padding-base);
+  }
+  .saree-shape,
+  .sarees-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .sarees-text {
+    align-self: stretch;
+    flex: 1;
+    align-items: center;
+    gap: 26px 0;
+  }
+  .saree-shape {
+    height: 401px;
+    width: 136px;
+    align-items: flex-start;
+    padding: var(--padding-11xs) var(--padding-15xl) 0 0;
+    box-sizing: border-box;
+  }
+  .western-1-icon {
+    height: 79px;
+    width: 59.2px;
+    position: relative;
+    border-radius: 97px;
+    object-fit: cover;
+  }
+  .kitchen-appliance {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xl) 0 var(--padding-mid);
+  }
+  .westernwear {
+    position: relative;
+  }
+  .saree-section,
+  .western-section {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .western-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px 0;
+  }
+  .saree-section {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-11xs);
+  }
+  .kitchen-1-icon {
+    height: 58px;
+    width: 85px;
+    position: relative;
+    border-radius: 93px;
+    object-fit: cover;
+  }
+  .bags-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs) 0 0;
+  }
+  .appliances,
+  .kitchen {
+    margin: 0;
+  }
+  .kitchen-appliances-container {
+    position: relative;
+  }
+  .men-fashion-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 7px 0;
+  }
+  .furniture-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 12px;
+  }
+  .winter-1-icon {
+    height: 67px;
+    width: 83px;
+    position: relative;
+    border-radius: 84px;
+    object-fit: cover;
+  }
+  .western-wear {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 14px;
+  }
+  .winter-collection {
+    position: relative;
+  }
+  .all-products {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px 0;
+  }
+  .healthcare-frame {
+    align-self: stretch;
+    gap: 26px 0;
+  }
+  .healthcare-frame,
+  .saree-frame-inner,
+  .saree-section-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .saree-section-parent {
+    align-self: stretch;
+    gap: 56px 0;
+  }
+  .saree-frame-inner {
+    flex: 1;
+    padding: var(--padding-11xs) 27px 0 0;
+    box-sizing: border-box;
+    min-width: 102px;
+  }
+  .jwellary-1-icon,
+  .jwellary-2-icon {
+    border-radius: var(--br-93xl-5);
+    object-fit: cover;
+  }
+  .jwellary-1-icon {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    margin: 0 !important;
+    right: 27px;
+    bottom: 23px;
+  }
+  .jwellary-2-icon {
+    height: 79px;
+    width: 79px;
+    position: relative;
+    z-index: 1;
+  }
+  .furniture-frames {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .jewellary {
+    position: relative;
+  }
+  .healthcare-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .health-1-icon {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 87px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .health-1-icon,
+  .healthcare {
+    position: relative;
+  }
+  .westernwear-frames {
+    align-self: stretch;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .furniture-1-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 82px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .furniture {
+    position: relative;
+  }
+  .furniture-types {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs) 0 var(--padding-2xs);
+  }
+  .jewellary-boxes,
+  .jewellary-display-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .jewellary-display-blocks {
+    width: 85px;
+    height: 90px;
+    align-items: center;
+    gap: 2px 0;
+  }
+  .jewellary-boxes {
+    width: 131px;
+    align-items: flex-start;
+    padding: 0 43px 0 0;
+    box-sizing: border-box;
+    gap: 52px 0;
+  }
+  .tshirt-1-icon {
+    width: 78px;
+    height: 78px;
+    border-radius: var(--br-93xl-5);
+    object-fit: cover;
+  }
+  .men-fashion,
+  .tshirt-1-icon {
+    position: relative;
+  }
+  .grocery-lists,
+  .westernwear-items {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .westernwear-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 13px 0;
+  }
+  .grocery-lists {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 15px 0 var(--padding-2xs);
+  }
+  .bags-1-icon {
+    width: 68px;
+    height: 73px;
+    border-radius: var(--br-83xl-5);
+    object-fit: cover;
+  }
+  .bags-1-icon,
+  .bags-luggage {
+    position: relative;
+  }
+  .jewellary-display-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+    gap: 2px 0;
+  }
+  .groc-1-icon {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 79.5px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .groc-1-icon,
+  .grocery {
+    position: relative;
+  }
+  .men-fashion1 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px 0;
+  }
+  .grocery-section {
+    align-self: stretch;
+    height: 98px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 19px 0 21px;
+    box-sizing: border-box;
+  }
+  .bagsand-accessories,
+  .grocery-section,
+  .saree-frame {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .bagsand-accessories {
+    width: 123px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px 0;
+  }
+  .saree-frame {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0 16px;
+  }
+  .main-frame,
+  .new-section-frame {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .new-section-frame {
+    width: 806px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-15xl) 0 var(--padding-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .main-frame {
+    width: 100%;
+    position: relative;
+    background-color: #ffe6e6;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-9xs) 0 50px;
+    gap: 12px 0;
+  }

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* Colors */
+    --color-mistyrose: #ffe6e6;
+  
+    /* Gaps */
+    --gap-0: 0px;
+  
+    /* Paddings */
+    --padding-13xl: 32px;
+  }
